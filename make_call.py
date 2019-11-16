@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 call = client.calls.create(
     to=os.environ["MY_PHONE_NUMBER"],
     from_=os.environ["UK_PHONE_NUMBER"],
-    url="http://demo.twilio.com/docs/voice.xml"
+    url="https://pamicel.github.io/cepm-calls/say.xml"
 )
 
 print(call.sid)

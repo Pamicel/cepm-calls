@@ -2,7 +2,7 @@
   <Say voice="Polly.Celine">
     <!-- Pour débugger Polly, aller à https://eu-central-1.console.aws.amazon.com/polly/home/SynthesizeSpeech -->
     <!-- Petite musique + Vous serez connecté dans un instant a l'onde de calibrage de votre Centre Evaluatif Post-Mortèm -->
-    <break strength="x-weak" time="200ms"/>
+    <break strength="x-weak" time="1s"/>
     Bonjour!
     <break strength="x-weak" time="100ms"/>
     <p>Vous êtes en connexion avec votre Centre Évaluatif Post-Mortèm.</p>

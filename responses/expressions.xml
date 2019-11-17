@@ -1,32 +1,26 @@
 <Response>
-<!--
-    Cet appel est lié à votre immatière. Pour effectuer le calibrage entre votre immatière et la Grande Suite, nous vous invitons à écouter une courte série d'expressions erronées,
-    <pause>
-    - Il ne faut pas jeter mémé dans l'eau du bain
-    <pause>
-    - Quand le chien aboie tous les chats sont noirs
-    <pause>
-    - Qui casse un oeuf casse un boeuf
-    <pause>
-    - Il ne faut pas tenter le diable par la queue
-    <pause>
-    - On attire pas les mouches avec des abeilles
-    <pause>
-    - Qui sème le bon vent
-    <pause>
-    Le calibrage est désormais terminé, merci pour votre coopération, nous vous souhaitons une excellente traversée.
--->
-
   <Say voice="Polly.Celine">
-    Bonjour
+    <!-- Pour débugger Polly, aller à https://eu-central-1.console.aws.amazon.com/polly/home/SynthesizeSpeech -->
+    <!-- Petite musique + Vous serez connecté dans un instant a l'onde de calibrage de votre Centre Evaluatif Post-Mortèm -->
+    <break strength="x-weak" time="200ms"/>
+    Bonjour!
     <break strength="x-weak" time="100ms"/>
-    <emphasis level="moderate">Vous êtes en connexion avec votre Centre Évaluatif Post-Mortem.</emphasis>
-    Cet appel est lié à votre immatière. Pour effectuer le calibrage entre votre immatière et la Grande Suite, nous vous invitons à écouter une courte série d'expressions erronées,
-    <p>Il ne faut pas jeter mémé dans l'eau du bain</p>
-    <p>Quand le chien aboie tous les chats sont noirs</p>
-    <p>Qui casse un oeuf casse un boeuf</p>
-    <p>Il ne faut pas tenter le diable par la queue</p>
-    <p>On attire pas les mouches avec des abeilles</p>
-    <p>Qui sème le bon vent</p>
+    <p>Vous êtes en connexion avec votre Centre Évaluatif Post-Mortèm.</p>
+    <p>Cet appel est lié à votre immatière. Pour effectuer le calibrage entre votre immatière et la Grande Suite, nous vous invitons à écouter cette courte série d'expressions erronées,</p>
+    <break strength="strong" time="500ms"/>
+    <p><emphasis level="moderate">Il ne faut pas jeter mémé dans l'eau du bain</emphasis></p>
+    <break strength="strong" time="1s"/>
+    <p><emphasis level="moderate">Quand le chien aboie tous les chats sont noirs</emphasis></p>
+    <break strength="strong" time="1s"/>
+    <p><emphasis level="moderate">Qui casse un oeuf casse un boeuf</emphasis></p>
+    <break strength="strong" time="1s"/>
+    <p><emphasis level="moderate">Il ne faut pas tenter le diable par la queue</emphasis></p>
+    <break strength="strong" time="1s"/>
+    <p><emphasis level="moderate">On attire pas les mouches avec des abeilles</emphasis></p>
+    <!-- Laisser les dernieres pause en 'weak' donne un quelque chose de plus organique -->
+    <break strength="weak" time="1s"/>
+    <p><emphasis level="moderate">Qui sème le bon vent</emphasis></p>
+    <break strength="weak" time="1s"/>
+    <p>Le calibrage est désormais terminé, merci de votre coopération, nous vous souhaitons une excellente traversée.</p>
   </Say>
 </Response>

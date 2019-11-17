@@ -1,0 +1,32 @@
+<Response>
+<!--
+    Cet appel est lié à votre immatière. Pour effectuer le calibrage entre votre immatière et la Grande Suite, nous vous invitons à écouter une courte série d'expressions erronées,
+    <pause>
+    - Il ne faut pas jeter mémé dans l'eau du bain
+    <pause>
+    - Quand le chien aboie tous les chats sont noirs
+    <pause>
+    - Qui casse un oeuf casse un boeuf
+    <pause>
+    - Il ne faut pas tenter le diable par la queue
+    <pause>
+    - On attire pas les mouches avec des abeilles
+    <pause>
+    - Qui sème le bon vent
+    <pause>
+    Le calibrage est désormais terminé, merci pour votre coopération, nous vous souhaitons une excellente traversée.
+-->
+
+  <Say voice="Polly.Celine">
+    Bonjour
+    <break strength="x-weak" time="100ms"/>
+    <emphasis level="moderate">Vous êtes en connexion avec votre Centre Évaluatif Post-Mortem.</emphasis>
+    Cet appel est lié à votre immatière. Pour effectuer le calibrage entre votre immatière et la Grande Suite, nous vous invitons à écouter une courte série d'expressions erronées,
+    <p>Il ne faut pas jeter mémé dans l'eau du bain</p>
+    <p>Quand le chien aboie tous les chats sont noirs</p>
+    <p>Qui casse un oeuf casse un boeuf</p>
+    <p>Il ne faut pas tenter le diable par la queue</p>
+    <p>On attire pas les mouches avec des abeilles</p>
+    <p>Qui sème le bon vent</p>
+  </Say>
+</Response>

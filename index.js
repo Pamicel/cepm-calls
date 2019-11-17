@@ -1,14 +1,12 @@
 const express = require('express');
-const xml = require('xml');
 const app = express();
-const port = 1234;
+const port = process.env.NODE_ENV === 'production' ? '80' : '1234';
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 app.get('/', (req, res) => res.send('Hello World!'));
 app.post('/twiml/expressions', (req, res) => {
     res.set('Content-Type', 'text/xml');
-    const response = new VoiceResponse({ language: 'fr-FR' });
-    response.say('Bonjour,');
+    const response = new VoiceResponse();
 
 // response.say('Vous êtes en connexion avec votre Centre Évaluatif Post-Mortem.');
 // Cet appel est lié à votre immatière. Pour effectuer le calibrage entre votre immatière et la Grande Suite, nous vous invitons à écouter une courte série d'expressions erronées,
@@ -27,7 +25,8 @@ app.post('/twiml/expressions', (req, res) => {
 // <pause>
 // Le calibrage est désormais terminé, merci pour votre coopération, nous vous souhaitons une excellente traversée.
     const say = response.say({
-        voice: 'Polly.Joanna'
+        voice: 'Polly.Joanna',
+        language: 'fr-FR',
     }, 'Hi');
     say.ssmlBreak({
         strength: 'x-weak',

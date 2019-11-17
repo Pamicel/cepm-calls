@@ -12,8 +12,8 @@
     "nodemon": "^1.19.4"
   },
   "scripts": {
-    "start": "node index.js",
-    "start:dev": "webpack-dev-server"
+    "start": "NODE_ENV=production node index.js",
+    "start:dev": "NODE_ENV=development node_modules/.bin/nodemon index.js"
   },
   "keywords": [
     "voice",

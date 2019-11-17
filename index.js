@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.NODE_ENV === 'production' ? '80' : '1234';
+const port = process.env.NODE_ENV === 'development' ? '1234' : process.env.PORT;
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 app.get('/', (req, res) => res.send('Hello World!'));

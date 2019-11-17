@@ -1,0 +1,24 @@
+{
+  "name": "voice-api",
+  "version": "1.0.0",
+  "description": "\"Respond to POSTs with xml encoded voice messages (Twilio's TwiML)\"",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "twilio": "^3.37.1",
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "voice",
+    "phone"
+  ],
+  "author": "pamicel",
+  "license": "ISC"
+}

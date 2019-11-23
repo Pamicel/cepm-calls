@@ -7,35 +7,34 @@
         Bonjour!
         <break strength="x-weak" time="100ms" />
         <p>Vous êtes en connexion avec votre Centre Évaluatif Post-Mortèm.</p>
+        <break strength="strong" time="500ms" />
         <p>Cet appel est lié à votre immatière. Pour effectuer le calibrage entre votre immatière et la Grande Suite,
-            nous vous invitons à écouter cette courte série d'expressions erronées,</p>
+                        veuillez écouter <break strength="weak"/>attentivement <prosody rate="slow"> <break strength="weak"/> cette courte série <break strength="weak"/> d'expressions  <break strength="weak"/> erronées,</prosody></p>
         <break strength="strong" time="500ms" />
         <p>
-            <emphasis level="moderate">Il ne faut pas jeter mémé dans l'eau du bain</emphasis>
+            <emphasis level="moderate">Il ne faut pas jeter mémé <break strength="weak"/> dans l'eau du bain</emphasis>
         </p>
         <break strength="strong" time="1s" />
         <p>
-            <emphasis level="moderate">Quand le chien aboie tous les chats sont noirs</emphasis>
+            <emphasis level="moderate">Quand le chien aboie <break strength="weak"/> tous les chats sont noirs</emphasis>
         </p>
         <break strength="strong" time="1s" />
         <p>
-            <emphasis level="moderate">Qui casse un oeuf casse un boeuf</emphasis>
+            <emphasis level="moderate">Qui casse un oeuf <break strength="weak"/> casse un boeuf</emphasis>
         </p>
         <break strength="strong" time="1s" />
         <p>
-            <emphasis level="moderate">Il ne faut pas tenter le diable par la queue</emphasis>
-        </p>
-        <break strength="strong" time="1s" />
-        <p>
-            <emphasis level="moderate">On attire pas les mouches avec des abeilles</emphasis>
+            <emphasis level="moderate">Il ne faut pas <break strength="weak"/>tenter<break strength="weak"/> le diable par la queue</emphasis>
         </p>
         <!-- Laisser les dernieres pause en 'weak' donne un quelque chose de plus organique -->
         <break strength="weak" time="1s" />
         <p>
-            <emphasis level="moderate">Qui sème le bon vent</emphasis>
+            <emphasis level="moderate">On attire pas les mouches <break strength="weak"/>  avec des abeilles</emphasis>
         </p>
-        <break strength="weak" time="1s" />
-        <p>Le calibrage est désormais terminé, merci de votre coopération, nous vous souhaitons une excellente
+        <break strength="weak" time="2s" />
+        <p>Le calibrage est désormais terminé,<break strength="weak"/> merci de votre coopération, <break strength="weak"/>nous vous souhaitons une excellente
             traversée.</p>
+        <break strength="x-weak" time="1s" />
     </Say>
+    <Play>https://guarded-brushlands-66385.herokuapp.com/sounds/violin</Play>
 </Response>

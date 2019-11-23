@@ -8,7 +8,7 @@ app.post('/twiml/expressions', (req, res) => {
     res.set('Content-Type', 'text/xml');
     res.sendFile('./responses/expressions.xml', { root: '.' });
 });
-app.post('/sound/violin', (req, res) => {
+app.get('/sound/violin', (req, res) => {
     res.set('Content-Type', 'audio/mpeg');
     res.sendFile('./responses/violin.mp3', { root: '.' });
 });

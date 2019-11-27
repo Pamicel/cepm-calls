@@ -7,9 +7,9 @@
         Bonjour!
         <break strength="x-weak" time="100ms" />
         <p>Vous êtes en connexion avec votre Centre Évaluatif Post-Mortèm.</p>
-        <break strength="strong" time="500ms" />
+        <break strength="strong" time="200ms" />
         <p>Cet appel est lié à votre immatière. Pour effectuer le calibrage entre votre immatière et la Grande Suite,
-                        veuillez écouter <break strength="weak"/>attentivement <prosody rate="slow"> <break strength="weak"/> cette courte série <break strength="weak"/> d'expressions  <break strength="weak"/> erronées,</prosody></p>
+                        veuillez écouter <break strength="weak"/>attentivement <prosody rate="slow"> <break strength="weak"/> cette courte série <break strength="weak"/> d'expressions  <break strength="weak" time='50ms'/> erronées,</prosody></p>
         <break strength="strong" time="500ms" />
         <p>
             <emphasis level="moderate">Il ne faut pas jeter mémé <break strength="weak"/> dans l'eau du bain</emphasis>
